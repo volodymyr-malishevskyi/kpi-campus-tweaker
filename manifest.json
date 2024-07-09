@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "KPI Campus Tweaker",
+    "description": "Super crutch for your favorite campus website",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://campus.kpi.ua/student/index.php?mode=studysheet"
+            ],
+            "js": [
+                "studysheet.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": [
+                "https://campus.kpi.ua//login.php"
+            ],
+            "js": [
+                "directLoginFix.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
