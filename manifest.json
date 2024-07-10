@@ -27,8 +27,5 @@
                 "directLoginFix.js"
             ]
         }
-    ],
-    "permissions": [
-        "activeTab"
     ]
 }
