@@ -2,6 +2,8 @@
 
 The Campus Tweaker extension helps to remove campus glitches and improves the user experience
 
+[Chrome Web Store👻](https://chromewebstore.google.com/detail/kpi-campus-tweaker/fjniiloehmapkpnhkafokeeidjioohhp)
+
 ## Features
 
 - **Automatic display of subjects in the current semester**: The extension automatically sets the values of the current academic year and semester in the `<select>` type fields at [Current Control](https://campus.kpi.ua/student/index.php?mode=studysheet) page
